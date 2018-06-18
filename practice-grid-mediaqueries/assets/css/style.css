@@ -1,0 +1,32 @@
+.container {
+  background-color: rebeccapurple;
+  height: 600px;
+}
+img{
+  width: 100%;
+}
+.titulo{
+  text-align: center;
+  padding: 5%;
+  font-family: 'Dosis', sans-serif;
+}
+.primera_seccion {
+  text-align: justify;
+  padding: 3%;
+  font-size: 20px;
+}
+@media (min-width:200px) and (max-width:424px) { /*para colocar la medida mas chica de la pantalla*/
+  [class*="col-"] {/*col vacio para que tome todos los casos*/
+    width: 100%;
+    text-align: center;
+  }
+  .titulo {
+    font-family: 'Bowlby One SC', cursive;
+  }
+  .gatito{
+    content: url("../img/reemplazo\ de\ gato.jpg");
+  }
+  body{
+    background-color: brown;
+  }
+}   
